@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 108" fill="none">
+  <defs>
+    <linearGradient id="tw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9A7B3E"/>
+      <stop offset=".5" stop-color="#C6A65C"/>
+      <stop offset="1" stop-color="#9A7B3E"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#FBEFC9"/>
+      <stop offset=".55" stop-color="#E7C989"/>
+      <stop offset="1" stop-color="#C79E4C"/>
+    </radialGradient>
+  </defs>
+
+  
+  <path d="M8 24 Q 280 92 552 24" stroke="url(#tw)" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M8 24 Q 280 92 552 24" stroke="#F2E2B6" stroke-width=".8" stroke-linecap="round" opacity=".5"/>
+
+  
+  <g stroke="#00000022" stroke-width=".6">
+    <path d="M25.6 31.7 L55.6 31.7 L40.6 65.7 Z" fill="#E8A0A8"/>
+    <path d="M85.5 43.2 L115.5 43.2 L100.5 77.2 Z" fill="#EAD6B8"/>
+    <path d="M145.3 51.4 L175.3 51.4 L160.3 85.4 Z" fill="#AEBE97"/>
+    <path d="M205.1 56.4 L235.1 56.4 L220.1 90.4 Z" fill="#A9B7D6"/>
+    <path d="M265 58 L295 58 L280 92 Z" fill="#E7C989"/>
+    <path d="M324.8 56.4 L354.8 56.4 L339.8 90.4 Z" fill="#E8A0A8"/>
+    <path d="M384.7 51.4 L414.7 51.4 L399.7 85.4 Z" fill="#EAD6B8"/>
+    <path d="M444.5 43.2 L474.5 43.2 L459.5 77.2 Z" fill="#AEBE97"/>
+    <path d="M504.3 31.7 L534.3 31.7 L519.3 65.7 Z" fill="#A9B7D6"/>
+  </g>
+  
+  <g fill="#00000018">
+    <path d="M25.6 31.7 L34.6 31.7 L40.6 65.7 Z"/>
+    <path d="M145.3 51.4 L154.3 51.4 L160.3 85.4 Z"/>
+    <path d="M265 58 L274 58 L280 92 Z"/>
+    <path d="M384.7 51.4 L393.7 51.4 L399.7 85.4 Z"/>
+    <path d="M504.3 31.7 L513.3 31.7 L519.3 65.7 Z"/>
+  </g>
+
+  
+  <g>
+    <circle cx="130" cy="47.5" r="8.5" fill="url(#lamp)" opacity=".28"/>
+    <circle cx="130" cy="47.5" r="4.4" fill="url(#lamp)"/>
+    <circle cx="280" cy="58" r="9" fill="url(#lamp)" opacity=".28"/>
+    <circle cx="280" cy="58" r="4.6" fill="url(#lamp)"/>
+    <circle cx="429" cy="47.5" r="8.5" fill="url(#lamp)" opacity=".28"/>
+    <circle cx="429" cy="47.5" r="4.4" fill="url(#lamp)"/>
+  </g>
+</svg>

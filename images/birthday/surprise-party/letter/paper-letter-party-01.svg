@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 620" preserveAspectRatio="none" fill="none">
+  <defs>
+    <linearGradient id="pg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8EEDA"/>
+      <stop offset=".5" stop-color="#F1E3CB"/>
+      <stop offset="1" stop-color="#E9D9BE"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="50%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#FBF4E5" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FBF4E5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.42  0 0 0 0 0.33  0 0 0 0 0.20  0 0 0 0.05 0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="50%" r="72%">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset=".82" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#6E5334" stop-opacity=".16"/>
+    </radialGradient>
+  </defs>
+  <rect width="420" height="620" fill="url(#pg)"/>
+  <rect width="420" height="620" fill="url(#warm)"/>
+  <rect width="420" height="620" filter="url(#grain)"/>
+  <rect width="420" height="620" fill="url(#vig)"/>
+</svg>
