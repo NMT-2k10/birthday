@@ -22,7 +22,7 @@ const env = {
   Image: class {
     width = 1290; height = 2145;
     set src(value) {
-      assert.ok(fs.existsSync(path.join(root, value)), value);
+      assert.ok(fs.existsSync(path.join(root, value.replace(/^\/birthday\//, ""))), value);
       this.onload();
     }
   },

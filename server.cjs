@@ -30,6 +30,7 @@ const server = http.createServer((request, response) => {
     response.writeHead(400);
     return response.end("Invalid URL");
   }
+  if (pathname.startsWith("/birthday/")) pathname = pathname.slice("/birthday".length);
   if (pathname === "/") pathname = "/index.html";
   const file = path.resolve(root, "." + pathname);
   if (!file.startsWith(root + path.sep)) {
